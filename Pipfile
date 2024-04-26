@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pydantic = "*"
+fastapi = "*"
+pyjwt = "*"
+
+[dev-packages]
+ruff = "*"
+mypy = "*"
+pylint = "*"
+build = "*"
+twine = "*"
+
+[requires]
+python_version = "3.12"
